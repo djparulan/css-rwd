@@ -170,7 +170,7 @@ div.logo {
 .box {
 	border: 5px solid #fff;
 	text-align: center;
-	width: 40%;
+	width: 60%;
 	padding: 40px;
 	position: absolute;
 	top: 50%;
@@ -214,6 +214,12 @@ img[alt*="Service"] ~ p {
 	width: 100%;
 	margin: 0 1%;
 	border-color: black;
+	margin-top: 20px;
+}
+
+footer {
+	text-align: center;
+	position: relative;
 }
 
 img[alt*="Gallery"] {
@@ -233,7 +239,10 @@ img[alt*="Social"] {
 }
 
 div.contact {
-	float: right;
+	float: none;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
 }
 
 div.logo {
@@ -396,6 +405,7 @@ div.contact {
 div.logo {
 	margin-bottom: 20px;
 }
+
 }
 
 /* laptop/desktop */
